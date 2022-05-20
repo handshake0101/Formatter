@@ -1,0 +1,32 @@
+body {
+  background-color: #222;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+body textarea {
+  width: 100%;
+  padding: .6rem;
+}
+
+body .row {
+  margin-top: .6rem;
+}
+
+body .row .btn {
+  width: 100%;
+}
+
+body .row .btn i {
+  margin-right: .3rem;
+}
+
+body .message {
+  margin-top: .4rem;
+}
